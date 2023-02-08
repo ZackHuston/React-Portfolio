@@ -1,27 +1,34 @@
+import AboutMe from './AboutMe'
+import Portfolio from './Portfolio'
+import Contact from './Contact'
+import Resume from './Resume'
+
+
 const styles = {
     navBar: {
         display: 'flex',
         flexDirection: 'row',
+        listStyle: 'none'
     },
     navItem: {
-        marginLeft: '2rem' 
+        marginLeft: '2rem'
     }
 }
 
 
-export  function Header({onNavItemClick}) {
-    return(
-        <div> 
-            <h1>Zack</h1> 
+export function Header({ onNavItemClick }) {
+    return (
+        <div>
+            <h1>Zack</h1>
             <nav>
-                <ul style = {styles.navBar}>
+                <ul style={styles.navBar}>
                     {
-                        NAV_ITEM_NAMES.map(item =>{
-                            return(
-                                <li 
-                                    key={item.itemName} 
+                        NAV_ITEMS.map(item => {
+                            return (
+                                <li
+                                    key={item.itemName}
                                     onClick={() => onNavItemClick(item.itemName)}
-                                    style ={styles.navItem}>
+                                    style={styles.navItem}>
                                     {item.itemName}
                                 </li>
                             )
@@ -34,17 +41,21 @@ export  function Header({onNavItemClick}) {
 }
 
 
-export const NAV_ITEM_NAMES = [
+export const NAV_ITEMS = [
     {
-        itemName: 'About Me'
+        itemName: 'About Me',
+        component: <AboutMe />
     },
     {
-        itemName: 'Portfolio'
+        itemName: 'Portfolio',
+        component: <Portfolio />
     },
     {
-        itemName: 'Contact'
+        itemName: 'Contact',
+        component: <Contact />
     },
     {
-        itemName: 'Resume'
+        itemName: 'Resume',
+        component: <Resume />
     }
 ]
