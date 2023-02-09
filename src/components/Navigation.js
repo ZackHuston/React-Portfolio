@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import React from 'react';
 import {Header, NAV_ITEMS } from './Header';
 import {Footer} from './Footer';
 

@@ -1,0 +1,36 @@
+
+.name{
+    color: #C9ADA7;
+    padding: 1.5rem;
+}
+
+.headerContainer{
+    width: 100%;
+    background: #100B00;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerContainer h1{
+    margin: 0;
+    display: inline-block;
+}
+
+.headerContainer ul{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.headerContainer li{
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.nav-items{
+    color: #C9ADA7;
+    font-weight: bolder;
+}
+

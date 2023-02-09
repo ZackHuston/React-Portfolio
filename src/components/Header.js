@@ -1,15 +1,12 @@
+import React from 'react';
 import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Resume from './Resume'
 
+import  './styles/Header.css'
 
 const styles = {
-    navBar: {
-        display: 'flex',
-        flexDirection: 'row',
-        listStyle: 'none'
-    },
     navItem: {
         marginLeft: '2rem'
     }
@@ -18,17 +15,16 @@ const styles = {
 
 export function Header({ onNavItemClick }) {
     return (
-        <div>
-            <h1>Zack</h1>
-            <nav>
+        <div className='headerContainer'>
+            <h1 className='name'>Zack</h1>
+            <nav className='nav-items'>
                 <ul style={styles.navBar}>
                     {
                         NAV_ITEMS.map(item => {
                             return (
                                 <li
                                     key={item.itemName}
-                                    onClick={() => onNavItemClick(item.itemName)}
-                                    style={styles.navItem}>
+                                    onClick={() => onNavItemClick(item.itemName)}>
                                     {item.itemName}
                                 </li>
                             )
