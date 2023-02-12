@@ -3,6 +3,8 @@ import React from 'react';
 import {Header, NAV_ITEMS } from './Header';
 import {Footer} from './Footer';
 
+import './styles/Navigation.css';
+
 
 export default function Navigation() {
 
@@ -22,9 +24,9 @@ export default function Navigation() {
     }
 
     return (
-        <div>
+        <div className='navigation'>
             <Header onNavItemClick={onNavItemClick}/>
-            <section>{renderCurrentPage()}</section>
+            <section className='section'>{renderCurrentPage()}</section>
             <Footer />
         </div>
     )

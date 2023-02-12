@@ -1,21 +1,23 @@
 
 .name{
-    color: #C9ADA7;
+    color: #F3EFE0;
     padding: 1.5rem;
 }
 
 .headerContainer{
     width: 100%;
-    background: #100B00;
+    background: #386FA4;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 5rem;
 }
 
 .headerContainer h1{
     margin: 0;
     display: inline-block;
+    align-items: center;
 }
 
 .headerContainer ul{
@@ -27,10 +29,11 @@
 .headerContainer li{
     margin-right: 2rem;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .nav-items{
-    color: #C9ADA7;
+    color: #F3EFE0;
     font-weight: bolder;
 }
 

@@ -1,0 +1,9 @@
+.section{
+  flex-grow: 1;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}

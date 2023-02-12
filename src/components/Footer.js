@@ -1,6 +1,7 @@
 import React from 'react';
+import './styles/Footer.css';
 export  function Footer() {
     return (
-        <footer> Footer component</footer>
+        <footer className = 'footer'> Footer component</footer>
     )
 }
