@@ -1,5 +1,17 @@
-.about-me{
-    background: #100B00;
-    color: #F3EFE0;
+.section{
+    background: #201E20;
+    color: #DDC3A5;
     height: 100%;
+}
+
+.about-me{
+    margin-top: 4rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    font-size: larger;
+}
+
+.portrait{
+    height: 20rem;
+    margin-left: 50rem;
 }

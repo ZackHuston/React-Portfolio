@@ -1,0 +1,11 @@
+.contacts{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+li{
+    margin-right: 1rem;
+}

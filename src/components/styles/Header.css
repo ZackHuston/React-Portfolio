@@ -1,12 +1,12 @@
 
 .name{
-    color: #F3EFE0;
+    color: #201E20;
     padding: 1.5rem;
 }
 
 .headerContainer{
     width: 100%;
-    background: #386FA4;
+    background: #DDC3A5;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@
 }
 
 .nav-items{
-    color: #F3EFE0;
+    color: #201E20;
     font-weight: bolder;
 }
 
