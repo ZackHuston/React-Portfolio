@@ -16,7 +16,7 @@ const styles = {
 export function Header({ onNavItemClick }) {
     return (
         <div className='headerContainer'>
-            <h1 className='name'>Kincaid</h1>
+            <h1 className='name'>Zackary</h1>
             <nav className='nav-items'>
                 <ul style={styles.navBar}>
                     {

@@ -1,18 +1,25 @@
 import React from 'react';
-import Portrait from '../assets/portrait.jpeg';
+import "./styles/Portfolio.css"
+import dineWine from '../assets/Dine&Wine.png'
+import Github from "../assets/github2.png";
+
 
 export default function Portfolio() {
     return (
-        <div className='section'> 
-        <p className='about-me'>
-        Hello my name is Zackary Cordell Kincaid Huston, I am an aspiring software developer. I chose this 
-        path for a simple reason, I absolutley love to create things. Im very big on learning
-        as well. At the momment I am enrolled in Butlers Executive Education bootcamp. This
-        bootcamp has taught me very important and useful information. Once I graduate this
-        bootcamp I do plan to get my associates degree in applied science in information technology
-        for software programing later this year!
-        </p>
-        <img className='portrait' src={Portrait} alt="Github logo" />
+        <div className='portfolio'> 
+      <a href="https://terryboufis.github.io/Dine-and-Wine-App/" 
+      target="_blank" 
+      rel="noreferrer">
+        <img className="app" src={dineWine} alt="Dine&Wine app screenshot" />
+      </a>
+      <ul className='GitHub-Link'>
+        <li><a href="https://github.com/TerryBoufis/Dine-and-Wine-App" 
+      target="_blank" 
+      rel="noreferrer">
+        <img className="github2" src={Github} alt="Github Link Logo" />
+      </a>
+      </li>
+      </ul>
         </div>
     )
 }

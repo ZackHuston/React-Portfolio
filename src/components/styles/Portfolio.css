@@ -1,0 +1,35 @@
+.app{
+    position: relative;
+    height: 13rem;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    list-style: none;
+    border: .5rem solid #DDC3A5;
+    border-radius: 1rem;
+}
+
+.app:hover{
+    position: relative;
+    height: 15rem;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    list-style: none;
+    background-color: #DDC3A5;
+    opacity:0.8 !important;
+}
+
+.github2{
+    position: relative;
+    height: 2rem
+}
+
+.GitHub-Link{
+    position: absolute;
+    list-style: none;
+    top: 8rem;
+    left: 13.5rem
+}
+
+.github2:hover{
+    height: 5rem
+}
